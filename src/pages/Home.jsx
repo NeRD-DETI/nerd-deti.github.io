@@ -25,13 +25,13 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesBlocks />
+        {/* <FeaturesBlocks />
         <FeaturesZigZag />
-        <Testimonials />
+        <Testimonials /> */}
         <Newsletter />
       </main>
 
-      <Banner />
+      {/* <Banner /> */}
 
       {/*  Site footer */}
       <Footer />
