@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Banner() {
+function BannerParticipacao() {
 
   const [bannerOpen, setBannerOpen] = useState(true);
 
@@ -10,8 +10,8 @@ function Banner() {
         <div className="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-60">
           <div className="bg-cyan-100 text-black text-sm p-3 md:rounded shadow-lg flex justify-between">
             <div className="text-black inline-flex">
-              <a className="font-medium hover:underline text-emerald-400" href="makenrace" target="_blank" rel="noreferrer">
-                Conhecer o MakeNRace
+              <a className="font-medium hover:underline text-emerald-400" href="makenrace/participacao" target="_blank" rel="noreferrer">
+                Inscreve-te no MakeNRace
               </a>
             </div>
             <button className="text-black hover:text-slate-400 pl-2 ml-3 border-l border-gray-700" onClick={() => setBannerOpen(false)}>
@@ -27,4 +27,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default BannerParticipacao;

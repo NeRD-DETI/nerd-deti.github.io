@@ -68,14 +68,6 @@ function Header() {
             </ul>
 
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
-                <Link to="/signin" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">Entrar na conta</Link>
-              </li>
-              <li>
-                <Link to="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">Quero participar</Link>
-              </li>
-            </ul>
 
           </nav>
 
@@ -113,12 +105,6 @@ function Header() {
                   <Link to="/sobre" className="flex text-gray-300 hover:text-gray-200 py-2">Sobre</Link>
                 </li>
                 
-                <li>
-                  <Link to="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center">Entrar na conta</Link>
-                </li>
-                <li>
-                  <Link to="/signup" className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">Quero participar</Link>
-                </li>
               </ul>
             </nav>
 
